@@ -1,0 +1,72 @@
+/* Sidebar.css */
+
+.sidebar {
+  background-color: #ffffff;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar img {
+  width: 220px;
+  height: 150px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.sidebar ul li:hover {
+  color: #000000;
+  background-color: #f8f07b;
+  border-radius: 10px;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  font-size: 24px; /* Adjust font size */
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a:hover,
+.sidebar ul li a:hover .sidebar-icon {
+  color: #000000;
+  background-color: #f8f07b;
+}
+
+.sidebar ul li a .sidebar-icon {
+  height: 40px; /* Adjust icon size */
+  width: 40px; /* Adjust icon size */
+  margin-right: 10px;
+}
+.sidebar .logout {
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; /* Add cursor pointer for clickable effect */
+}
+
+.sidebar .logout:hover {
+  color: #000000;
+  background-color: #f8f07b;
+  border-radius: 10px;
+}
+
+.sidebar .logout .sidebar-icon {
+  margin-top: 10px;
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+  margin-right: 7px;
+}
